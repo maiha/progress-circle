@@ -75,7 +75,7 @@
 				'height'       : offset
 			})
 			if( settings.barOverride ) {
-				progCirc.find(' .slice > div.bar ').css({
+				progCirc.find( '.slice > div.bar, .slice > div.fill' ).css({
 					'width'        : '1em',
 					'height'       : '1em'
 				})
@@ -131,3 +131,4 @@
 	};
 
 })( jQuery );
+
