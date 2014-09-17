@@ -56,11 +56,11 @@
 		function transformCircle ( nRadians, cDiv ) {
 			var rotate = "rotate(" + nRadians + "deg)";
 	    cDiv.css({
+	      "transform"         : rotate,
 	      "-webkit-transform" : rotate,
 	      "-moz-transform"    : rotate,
 	      "-ms-transform"     : rotate,
-	      "-o-transform"      : rotate,
-	      "transform"         : rotate
+	      "-o-transform"      : rotate
 	    });
 	    if( nRadians > 180 ) {
 		    transformCircle( 180, circleFill );
