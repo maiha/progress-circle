@@ -10,7 +10,7 @@
 
 		var settings          = $.extend( {}, $.fn.progressCircle.defaults, options );
 		var thicknessConstant = 0.02;
-		var nRadian           = 0;
+		var nRadians          = 0;
 
 		computePercent();
 		setThickness();
