@@ -98,7 +98,8 @@
 		}
 
 		function updatePercentage () {
-			settings.showPercentText && circleSpan.text( settings.nPercent + '%' );
+			var text = settings.text || settings.nPercent + '%';
+			settings.showPercentText && circleSpan.text( text );
 		}
 	};
 
